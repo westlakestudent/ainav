@@ -1,42 +1,43 @@
-{
+// 4_ai图像生成 数据
+export default {
   "id": 4,
   "name": "AI图像生成",
   "icon": "🎨",
-  "description": "",
+  "desc": "",
   "sites": [
     {
       "id": 1,
       "name": "Midjourney",
       "url": "https://midjourney.com",
       "icon": "🖼️",
-      "description": "AI艺术和图像生成工具"
+      "desc": "AI艺术和图像生成工具"
     },
     {
       "id": 2,
       "name": "RunwayML",
       "url": "https://runwayml.com",
       "icon": "🚀",
-      "description": "AI创意工具"
+      "desc": "AI创意工具"
     },
     {
       "name": "文心一格",
       "url": "https://yige.baidu.com",
       "icon": "🎨",
-      "description": "百度推出的AI绘画创作平台",
+      "desc": "百度推出的AI绘画创作平台",
       "id": 3
     },
     {
       "name": "通义万相",
       "url": "https://wanxiang.aliyun.com",
       "icon": "🖼️",
-      "description": "阿里巴巴推出的AI图像生成服务",
+      "desc": "阿里巴巴推出的AI图像生成服务",
       "id": 4
     },
     {
       "name": "腾讯智影",
       "url": "https://zenvideo.qq.com",
       "icon": "🎬",
-      "description": "腾讯推出的AI图像和视频生成平台",
+      "desc": "腾讯推出的AI图像和视频生成平台",
       "id": 5
     },
     {
@@ -44,27 +45,27 @@
       "name": "Adobe Firefly",
       "url": "https://firefly.adobe.com",
       "icon": "🦋",
-      "description": "Adobe的生成式AI创意工具"
+      "desc": "Adobe的生成式AI创意工具"
     },
     {
       "id": 7,
       "name": "Bing Image Creator",
       "url": "https://www.bing.com/create",
       "icon": "🔍",
-      "description": "微软的DALL-E图像生成器"
+      "desc": "微软的DALL-E图像生成器"
     },
     {
       "id": 8,
       "name": "AUTOMATIC1111",
       "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
       "icon": "🧰",
-      "description": "最流行的Stable Diffusion界面"
+      "desc": "最流行的Stable Diffusion界面"
     },
     {
       "name": "6pen Art",
       "url": "https://6pen.art",
       "icon": "✒️",
-      "description": "国内专业的AI绘画平台",
+      "desc": "国内专业的AI绘画平台",
       "id": 9
     },
     {
@@ -72,13 +73,13 @@
       "name": "Comfy UI",
       "url": "https://github.com/comfyanonymous/ComfyUI",
       "icon": "🛋️",
-      "description": "强大的Stable Diffusion可视化图形界面"
+      "desc": "强大的Stable Diffusion可视化图形界面"
     },
     {
       "name": "MooBai",
       "url": "https://moobai.ai",
       "icon": "🐮",
-      "description": "国内AI艺术创作平台",
+      "desc": "国内AI艺术创作平台",
       "id": 11
     },
     {
@@ -86,98 +87,98 @@
       "name": "Canva AI",
       "url": "https://canva.com/ai-image-generator",
       "icon": "✏️",
-      "description": "Canva的AI图像生成工具"
+      "desc": "Canva的AI图像生成工具"
     },
     {
       "id": 13,
       "name": "Designer.microsoft",
       "url": "https://designer.microsoft.com",
       "icon": "🎨",
-      "description": "微软AI设计工具"
+      "desc": "微软AI设计工具"
     },
     {
       "id": 14,
       "name": "Diffusion Bee",
       "url": "https://diffusionbee.com",
       "icon": "🐝",
-      "description": "Mac上运行Stable Diffusion"
+      "desc": "Mac上运行Stable Diffusion"
     },
     {
       "id": 15,
       "name": "DragGAN",
       "url": "https://github.com/XingangPan/DragGAN",
       "icon": "🔄",
-      "description": "交互式点拖拽编辑生成图像"
+      "desc": "交互式点拖拽编辑生成图像"
     },
     {
       "id": 16,
       "name": "Fooocus",
       "url": "https://github.com/lllyasviel/Fooocus",
       "icon": "🔍",
-      "description": "简化版Stable Diffusion生成界面"
+      "desc": "简化版Stable Diffusion生成界面"
     },
     {
       "id": 17,
       "name": "Gigapixel AI",
       "url": "https://www.topazlabs.com/gigapixel-ai",
       "icon": "🔎",
-      "description": "AI图像放大软件"
+      "desc": "AI图像放大软件"
     },
     {
       "id": 18,
       "name": "Glaze",
       "url": "https://glaze.cs.uchicago.edu",
       "icon": "🛡️",
-      "description": "保护艺术家风格免受AI复制"
+      "desc": "保护艺术家风格免受AI复制"
     },
     {
       "id": 19,
       "name": "Imagen",
       "url": "https://imagen.research.google",
       "icon": "🎨",
-      "description": "Google的AI图像生成模型"
+      "desc": "Google的AI图像生成模型"
     },
     {
       "id": 20,
       "name": "Imagine by Magic Studio",
       "url": "https://magicstudio.com/imagine",
       "icon": "✨",
-      "description": "图像生成工具"
+      "desc": "图像生成工具"
     },
     {
       "id": 21,
       "name": "InvokeAI",
       "url": "https://github.com/invoke-ai/InvokeAI",
       "icon": "🔮",
-      "description": "开源Stable Diffusion界面"
+      "desc": "开源Stable Diffusion界面"
     },
     {
       "id": 22,
       "name": "NVIDIA Canvas",
       "url": "https://www.nvidia.com/en-us/studio/canvas",
       "icon": "🎨",
-      "description": "将草图转换为逼真图像"
+      "desc": "将草图转换为逼真图像"
     },
     {
       "id": 23,
       "name": "Remove.bg",
       "url": "https://www.remove.bg",
       "icon": "✂️",
-      "description": "AI自动删除图像背景"
+      "desc": "AI自动删除图像背景"
     },
     {
       "id": 24,
       "name": "Scenario",
       "url": "https://www.scenario.com",
       "icon": "🎮",
-      "description": "游戏专用AI艺术工具"
+      "desc": "游戏专用AI艺术工具"
     },
     {
       "id": 25,
       "name": "Vizcom",
       "url": "https://www.vizcom.ai",
       "icon": "✏️",
-      "description": "将草图转换为专业渲染"
+      "desc": "将草图转换为专业渲染"
     }
   ]
 }

@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted, watch } from 'vue';
+import { Analytics } from '@vercel/analytics/vue';
 import NavHeader from './components/NavHeader.vue'
 import NavContent from './components/NavContent.vue'
 
@@ -52,6 +53,7 @@ watch(themePreference, () => {
 </script>
 
 <template>
+  <Analytics />
   <div class="app-container" :class="{ 'dark-theme': isDarkMode }">
     <NavHeader :isDarkMode="isDarkMode" :themePreference="themePreference" @setTheme="setTheme" />
     <NavContent />

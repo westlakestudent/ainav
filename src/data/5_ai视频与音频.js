@@ -1,14 +1,15 @@
-{
+// 5_ai视频与音频 数据
+export default {
   "id": 5,
   "name": "AI视频与音频",
   "icon": "🎬",
-  "description": "",
+  "desc": "",
   "sites": [
     {
       "name": "剪映",
       "url": "https://www.capcut.cn",
       "icon": "✂️",
-      "description": "字节跳动旗下智能视频编辑工具",
+      "desc": "字节跳动旗下智能视频编辑工具",
       "id": 1
     },
     {
@@ -16,41 +17,41 @@
       "name": "ElevenLabs",
       "url": "https://elevenlabs.io",
       "icon": "🔊",
-      "description": "AI语音生成平台"
+      "desc": "AI语音生成平台"
     },
     {
       "id": 3,
       "name": "D-ID",
       "url": "https://d-id.com",
       "icon": "👤",
-      "description": "数字人视频创建平台"
+      "desc": "数字人视频创建平台"
     },
     {
       "id": 4,
       "name": "Synthesia",
       "url": "https://synthesia.io",
       "icon": "📹",
-      "description": "AI视频生成平台"
+      "desc": "AI视频生成平台"
     },
     {
       "id": 5,
       "name": "Murf AI",
       "url": "https://murf.ai",
       "icon": "🗣️",
-      "description": "专业AI语音和配音生成器"
+      "desc": "专业AI语音和配音生成器"
     },
     {
       "id": 6,
       "name": "Suno",
       "url": "https://suno.ai",
       "icon": "🎵",
-      "description": "AI音乐生成"
+      "desc": "AI音乐生成"
     },
     {
       "name": "讯飞智作",
       "url": "https://www.xfzhizuo.cn",
       "icon": "🎙️",
-      "description": "科大讯飞推出的AI音视频内容创作平台",
+      "desc": "科大讯飞推出的AI音视频内容创作平台",
       "id": 7
     },
     {
@@ -58,13 +59,13 @@
       "name": "InVideo",
       "url": "https://invideo.io",
       "icon": "🎥",
-      "description": "在线视频编辑工具"
+      "desc": "在线视频编辑工具"
     },
     {
       "name": "万兴喵影",
       "url": "https://www.filmora.cn",
       "icon": "🐱",
-      "description": "万兴科技推出的AI智能视频剪辑软件",
+      "desc": "万兴科技推出的AI智能视频剪辑软件",
       "id": 9
     },
     {
@@ -72,13 +73,13 @@
       "name": "Play.ht",
       "url": "https://play.ht",
       "icon": "🎧",
-      "description": "AI语音克隆和文本到语音转换"
+      "desc": "AI语音克隆和文本到语音转换"
     },
     {
       "name": "爱剪辑智能版",
       "url": "https://ijianji.com",
       "icon": "🎬",
-      "description": "国内智能视频编辑软件",
+      "desc": "国内智能视频编辑软件",
       "id": 11
     },
     {
@@ -86,224 +87,224 @@
       "name": "Cleanvoice",
       "url": "https://cleanvoice.ai",
       "icon": "🧹",
-      "description": "AI语音清理工具"
+      "desc": "AI语音清理工具"
     },
     {
       "id": 13,
       "name": "Adobe Podcast",
       "url": "https://podcast.adobe.com",
       "icon": "🎙️",
-      "description": "AI增强音频编辑工具"
+      "desc": "AI增强音频编辑工具"
     },
     {
       "id": 14,
       "name": "AIVA",
       "url": "https://aiva.ai",
       "icon": "🎹",
-      "description": "AI音乐作曲助手"
+      "desc": "AI音乐作曲助手"
     },
     {
       "id": 15,
       "name": "Altered",
       "url": "https://www.altered.ai",
       "icon": "🗣️",
-      "description": "语音转换与语音克隆"
+      "desc": "语音转换与语音克隆"
     },
     {
       "id": 16,
       "name": "Audacity",
       "url": "https://www.audacityteam.org",
       "icon": "🎚️",
-      "description": "开源音频编辑软件"
+      "desc": "开源音频编辑软件"
     },
     {
       "id": 17,
       "name": "Audiostack",
       "url": "https://audiostack.ai",
       "icon": "🔊",
-      "description": "大规模音频内容生成"
+      "desc": "大规模音频内容生成"
     },
     {
       "id": 18,
       "name": "Beatoven.ai",
       "url": "https://www.beatoven.ai",
       "icon": "🎵",
-      "description": "定制化背景音乐创作工具"
+      "desc": "定制化背景音乐创作工具"
     },
     {
       "id": 19,
       "name": "Colossyan",
       "url": "https://www.colossyan.com",
       "icon": "👨‍💼",
-      "description": "企业AI视频创建平台"
+      "desc": "企业AI视频创建平台"
     },
     {
       "id": 20,
       "name": "Descript",
       "url": "https://descript.com",
       "icon": "🎙️",
-      "description": "音频和视频编辑工具"
+      "desc": "音频和视频编辑工具"
     },
     {
       "id": 21,
       "name": "Descript Storyboard",
       "url": "https://www.descript.com/storyboard",
       "icon": "📋",
-      "description": "视频脚本和故事板工具"
+      "desc": "视频脚本和故事板工具"
     },
     {
       "id": 22,
       "name": "Fliki",
       "url": "https://fliki.ai",
       "icon": "📽️",
-      "description": "文本到视频和语音生成平台"
+      "desc": "文本到视频和语音生成平台"
     },
     {
       "id": 23,
       "name": "Gen-2",
       "url": "https://research.runwayml.com/gen2",
       "icon": "🎥",
-      "description": "RunwayML的视频生成模型"
+      "desc": "RunwayML的视频生成模型"
     },
     {
       "id": 24,
       "name": "Hour One",
       "url": "https://hourone.ai",
       "icon": "👱",
-      "description": "基于AI的人物视频生成"
+      "desc": "基于AI的人物视频生成"
     },
     {
       "id": 25,
       "name": "Kaiber",
       "url": "https://kaiber.ai",
       "icon": "🎬",
-      "description": "AI视频生成平台"
+      "desc": "AI视频生成平台"
     },
     {
       "id": 26,
       "name": "Lumen5",
       "url": "https://lumen5.com",
       "icon": "💡",
-      "description": "在线视频创建平台"
+      "desc": "在线视频创建平台"
     },
     {
       "id": 27,
       "name": "Moises.ai",
       "url": "https://moises.ai",
       "icon": "🎵",
-      "description": "AI音乐分离和处理工具"
+      "desc": "AI音乐分离和处理工具"
     },
     {
       "id": 28,
       "name": "Opus Clip",
       "url": "https://opus.pro",
       "icon": "✂️",
-      "description": "AI视频剪辑服务"
+      "desc": "AI视频剪辑服务"
     },
     {
       "id": 29,
       "name": "Rask AI",
       "url": "https://www.rask.ai",
       "icon": "🌐",
-      "description": "AI视频本地化与配音服务"
+      "desc": "AI视频本地化与配音服务"
     },
     {
       "id": 30,
       "name": "Replica Studios",
       "url": "https://replicastudios.com",
       "icon": "🎭",
-      "description": "AI配音和语音合成"
+      "desc": "AI配音和语音合成"
     },
     {
       "id": 31,
       "name": "Resemble AI",
       "url": "https://www.resemble.ai",
       "icon": "🗣️",
-      "description": "AI语音克隆和合成"
+      "desc": "AI语音克隆和合成"
     },
     {
       "id": 32,
       "name": "Sonible",
       "url": "https://www.sonible.com",
       "icon": "🎛️",
-      "description": "AI音频处理工具"
+      "desc": "AI音频处理工具"
     },
     {
       "id": 33,
       "name": "Sound AI",
       "url": "https://www.soundai.com",
       "icon": "🔊",
-      "description": "智能音频处理技术"
+      "desc": "智能音频处理技术"
     },
     {
       "id": 34,
       "name": "Soundful",
       "url": "https://soundful.com",
       "icon": "🎶",
-      "description": "AI背景音乐生成工具"
+      "desc": "AI背景音乐生成工具"
     },
     {
       "id": 35,
       "name": "Soundraw",
       "url": "https://soundraw.io",
       "icon": "🎼",
-      "description": "AI音乐创作工具"
+      "desc": "AI音乐创作工具"
     },
     {
       "id": 36,
       "name": "Speechify",
       "url": "https://speechify.com",
       "icon": "🔊",
-      "description": "文本到语音转换工具"
+      "desc": "文本到语音转换工具"
     },
     {
       "id": 37,
       "name": "Spik.ai",
       "url": "https://www.spik.ai",
       "icon": "🎙️",
-      "description": "AI音频生成平台"
+      "desc": "AI音频生成平台"
     },
     {
       "id": 38,
       "name": "Splashmusic",
       "url": "https://splashmusic.com",
       "icon": "🎹",
-      "description": "AI音乐生成平台"
+      "desc": "AI音乐生成平台"
     },
     {
       "id": 39,
       "name": "Topaz Video AI",
       "url": "https://www.topazlabs.com/topaz-video-ai",
       "icon": "🔍",
-      "description": "AI视频增强工具"
+      "desc": "AI视频增强工具"
     },
     {
       "id": 40,
       "name": "Vidyo.ai",
       "url": "https://vidyo.ai",
       "icon": "✂️",
-      "description": "AI视频摘要工具"
+      "desc": "AI视频摘要工具"
     },
     {
       "id": 41,
       "name": "Voicemod",
       "url": "https://www.voicemod.net",
       "icon": "🎭",
-      "description": "实时语音变声器"
+      "desc": "实时语音变声器"
     },
     {
       "id": 42,
       "name": "Wavtool",
       "url": "https://wavtool.com",
       "icon": "🌊",
-      "description": "AI音乐制作和混音工具"
+      "desc": "AI音乐制作和混音工具"
     },
     {
       "id": 43,
       "name": "Wonder Dynamics",
       "url": "https://wonderdynamics.com",
       "icon": "✨",
-      "description": "AI角色动画工具"
+      "desc": "AI角色动画工具"
     }
   ]
 }

@@ -1,50 +1,89 @@
 <script setup>
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed } from 'vue';
 import NavCategory from './NavCategory.vue';
 import Sidebar from './Sidebar.vue';
-import indexData from '../data/index.json';
+import indexData from '../data/index.js';
+// 为了简化示例，暂时注释掉性能工具导入
+// import { dataCache, perfMonitor, preloader } from '../utils/performance.js';
 
-// 加载所有分类数据
+// 调试信息 - 显示索引数据
+console.log("加载的索引数据:", indexData);
+
+// 提前导入所有分类的JS模块
+import category1 from '../data/1_ai平台与基础设施.js';
+import category2 from '../data/2_ai大模型.js';
+import category3 from '../data/3_ai开发工具.js';
+import category4 from '../data/4_ai图像生成.js';
+import category5 from '../data/5_ai视频与音频.js';
+import category6 from '../data/6_ai生产力工具.js';
+import category7 from '../data/7_ai研究与社区.js';
+import category8 from '../data/8_ai创业和投资.js';
+
+// 调试信息 - 显示加载的模块
+console.log("加载的模块:", {
+  category1,
+  category2,
+  category3,
+  category4,
+  category5,
+  category6,
+  category7,
+  category8
+});
+
+// 存储所有分类数据
+const categoryModules = {
+  '1_ai平台与基础设施.js': category1,
+  '2_ai大模型.js': category2,
+  '3_ai开发工具.js': category3,
+  '4_ai图像生成.js': category4,
+  '5_ai视频与音频.js': category5,
+  '6_ai生产力工具.js': category6,
+  '7_ai研究与社区.js': category7,
+  '8_ai创业和投资.js': category8
+};
+
+// 加载所有分类数据 - 现在直接从JS模块获取
 const categoriesRaw = ref([]);
 
-const loadCategories = async () => {
+// 初始化加载数据 - 直接从JS模块中加载
+const loadCategories = () => {
   const categories = [];
+  
+  // 遍历索引数据中的类别
   for (const category of indexData.categories) {
     try {
-      // 使用fetch而不是import来加载JSON数据
-      const response = await fetch(`/src/data/${category.file}`);
+      // 输出当前类别和对应的文件名
+      console.log(`尝试加载分类: ${category.name}, 文件: ${category.file}`);
       
-      if (!response.ok) {
-        // 如果第一个路径失败，尝试另一个可能的路径
-        const fallbackResponse = await fetch(`/data/${category.file}`);
-        if (!fallbackResponse.ok) {
-          console.error(`Failed to load category data: ${category.file}`);
-          continue;
-        }
-        const categoryData = await fallbackResponse.json();
+      // 直接从JS模块中获取数据
+      const categoryData = categoryModules[category.file];
+      console.log(`获取到的数据:`, categoryData);
+      
+      if (categoryData) {
         categories.push(categoryData);
       } else {
-        const categoryData = await response.json();
-        categories.push(categoryData);
+        console.error(`找不到分类数据: ${category.file}`);
       }
     } catch (error) {
-      console.error(`Error loading category ${category.file}:`, error);
+      console.error(`加载分类出错 ${category.file}:`, error);
     }
   }
+  
+  // 设置分类数据
+  console.log("加载的所有分类:", categories);
   categoriesRaw.value = categories;
 };
 
-// 在组件挂载时加载数据
-onMounted(() => {
-  loadCategories();
-});
+// 立即加载分类数据
+loadCategories();
 
 // AI导航分类和网站数据
 const categories = computed(() => {
   return categoriesRaw.value.map(category => {
     return {
       ...category,
-      sites: [...category.sites].sort((a, b) => a.name.localeCompare(b.name))
+      sites: [...category.sites].sort((a, b) => a.name.localeCompare(b.name, 'zh-CN'))
     };
   });
 });
