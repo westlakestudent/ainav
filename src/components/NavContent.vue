@@ -10,8 +10,26 @@ const categoriesRaw = ref([]);
 const loadCategories = async () => {
   const categories = [];
   for (const category of indexData.categories) {
-    const categoryData = await import(/* @vite-ignore */ `../data/${category.file}`);
-    categories.push(categoryData.default);
+    try {
+      // 使用fetch而不是import来加载JSON数据
+      const response = await fetch(`/src/data/${category.file}`);
+      
+      if (!response.ok) {
+        // 如果第一个路径失败，尝试另一个可能的路径
+        const fallbackResponse = await fetch(`/data/${category.file}`);
+        if (!fallbackResponse.ok) {
+          console.error(`Failed to load category data: ${category.file}`);
+          continue;
+        }
+        const categoryData = await fallbackResponse.json();
+        categories.push(categoryData);
+      } else {
+        const categoryData = await response.json();
+        categories.push(categoryData);
+      }
+    } catch (error) {
+      console.error(`Error loading category ${category.file}:`, error);
+    }
   }
   categoriesRaw.value = categories;
 };
