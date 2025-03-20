@@ -1,0 +1,421 @@
+{
+  "id": 3,
+  "name": "AI开发工具",
+  "icon": "🛠️",
+  "description": "",
+  "sites": [
+    {
+      "name": "飞桨AI Studio",
+      "url": "https://aistudio.baidu.com",
+      "icon": "🛠️",
+      "description": "百度推出的AI开发平台，提供免费算力和教程",
+      "id": 1
+    },
+    {
+      "name": "魔搭社区",
+      "url": "https://modelscope.cn",
+      "icon": "🧩",
+      "description": "阿里云推出的AI模型开源社区，涵盖各类模型",
+      "id": 2
+    },
+    {
+      "name": "昇思MindSpore",
+      "url": "https://www.mindspore.cn",
+      "icon": "🧠",
+      "description": "华为开源的深度学习框架",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Airbyte",
+      "url": "https://airbyte.com",
+      "icon": "🔄",
+      "description": "开源数据集成平台"
+    },
+    {
+      "id": 5,
+      "name": "Amazon SageMaker",
+      "url": "https://aws.amazon.com/sagemaker",
+      "icon": "☁️",
+      "description": "AWS的ML模型构建和部署服务"
+    },
+    {
+      "id": 6,
+      "name": "Anthropic Claude API",
+      "url": "https://www.anthropic.com/api",
+      "icon": "🔌",
+      "description": "高性能大语言模型API"
+    },
+    {
+      "id": 7,
+      "name": "BentoML",
+      "url": "https://bentoml.com",
+      "icon": "🍱",
+      "description": "模型服务和部署框架"
+    },
+    {
+      "id": 8,
+      "name": "Bito",
+      "url": "https://bito.ai",
+      "icon": "💡",
+      "description": "AI编程辅助工具插件"
+    },
+    {
+      "id": 9,
+      "name": "Chroma",
+      "url": "https://www.trychroma.com",
+      "icon": "🎨",
+      "description": "开源向量存储库"
+    },
+    {
+      "id": 10,
+      "name": "Codeium",
+      "url": "https://codeium.com",
+      "icon": "💡",
+      "description": "免费的AI编程助手"
+    },
+    {
+      "id": 11,
+      "name": "Cursor",
+      "url": "https://cursor.sh",
+      "icon": "📝",
+      "description": "AI驱动的代码编辑器"
+    },
+    {
+      "id": 12,
+      "name": "Dask",
+      "url": "https://dask.org",
+      "icon": "📊",
+      "description": "并行计算库"
+    },
+    {
+      "id": 13,
+      "name": "DeepNote",
+      "url": "https://deepnote.com",
+      "icon": "📘",
+      "description": "团队数据科学协作平台"
+    },
+    {
+      "id": 14,
+      "name": "Determined AI",
+      "url": "https://determined.ai",
+      "icon": "🏗️",
+      "description": "高效训练深度学习模型平台"
+    },
+    {
+      "id": 15,
+      "name": "DVC",
+      "url": "https://dvc.org",
+      "icon": "🔄",
+      "description": "机器学习项目的版本控制"
+    },
+    {
+      "id": 16,
+      "name": "FAISS",
+      "url": "https://github.com/facebookresearch/faiss",
+      "icon": "🔎",
+      "description": "Facebook的高效相似性搜索库"
+    },
+    {
+      "id": 17,
+      "name": "FastAI",
+      "url": "https://fast.ai",
+      "icon": "🚀",
+      "description": "简化深度学习的高级库"
+    },
+    {
+      "name": "FlagAI",
+      "url": "https://github.com/FlagAI-Open/FlagAI",
+      "icon": "🏁",
+      "description": "智源研究院推出的大模型训练工具",
+      "id": 18
+    },
+    {
+      "id": 19,
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot",
+      "icon": "👨‍💻",
+      "description": "AI编程助手"
+    },
+    {
+      "id": 20,
+      "name": "GPT4All UI",
+      "url": "https://gpt4all.io",
+      "icon": "🖥️",
+      "description": "本地LLM的用户界面"
+    },
+    {
+      "id": 21,
+      "name": "Gradio",
+      "url": "https://gradio.app",
+      "icon": "🎛️",
+      "description": "为模型快速创建演示界面"
+    },
+    {
+      "id": 22,
+      "name": "Haystack",
+      "url": "https://haystack.deepset.ai",
+      "icon": "🔍",
+      "description": "使用LLM构建NLP应用"
+    },
+    {
+      "id": 23,
+      "name": "JAX",
+      "url": "https://github.com/google/jax",
+      "icon": "🔍",
+      "description": "Google开发的高性能数值计算库"
+    },
+    {
+      "id": 24,
+      "name": "Jina AI",
+      "url": "https://jina.ai",
+      "icon": "🔎",
+      "description": "多模态AI搜索框架"
+    },
+    {
+      "id": 25,
+      "name": "Jupyter",
+      "url": "https://jupyter.org",
+      "icon": "📓",
+      "description": "开源交互式计算环境"
+    },
+    {
+      "id": 26,
+      "name": "Kaggle Notebooks",
+      "url": "https://www.kaggle.com/code",
+      "icon": "📊",
+      "description": "数据科学竞赛和分析平台"
+    },
+    {
+      "id": 27,
+      "name": "Kedro",
+      "url": "https://kedro.org",
+      "icon": "🧩",
+      "description": "数据科学项目开发框架"
+    },
+    {
+      "id": 28,
+      "name": "Keras",
+      "url": "https://keras.io",
+      "icon": "🧠",
+      "description": "用户友好的深度学习API"
+    },
+    {
+      "id": 29,
+      "name": "LabML",
+      "url": "https://labml.ai",
+      "icon": "🔬",
+      "description": "深度学习实验跟踪工具"
+    },
+    {
+      "id": 30,
+      "name": "LangChain",
+      "url": "https://langchain.com",
+      "icon": "⛓️",
+      "description": "LLM应用开发框架"
+    },
+    {
+      "id": 31,
+      "name": "LangServe",
+      "url": "https://langchain.com/langserve",
+      "icon": "🔌",
+      "description": "LangChain应用部署工具"
+    },
+    {
+      "id": 32,
+      "name": "LlamaIndex",
+      "url": "https://www.llamaindex.ai",
+      "icon": "📚",
+      "description": "LLM增强检索框架"
+    },
+    {
+      "id": 33,
+      "name": "Mage",
+      "url": "https://www.mage.ai",
+      "icon": "🧙",
+      "description": "AI数据管道和ETL工具"
+    },
+    {
+      "id": 34,
+      "name": "Metaflow",
+      "url": "https://metaflow.org",
+      "icon": "🔄",
+      "description": "Netflix的数据科学框架"
+    },
+    {
+      "id": 35,
+      "name": "Milvus",
+      "url": "https://milvus.io",
+      "icon": "📊",
+      "description": "向量相似度搜索引擎"
+    },
+    {
+      "id": 36,
+      "name": "MLflow",
+      "url": "https://mlflow.org",
+      "icon": "🧪",
+      "description": "机器学习生命周期管理平台"
+    },
+    {
+      "id": 37,
+      "name": "Modal",
+      "url": "https://modal.com",
+      "icon": "📦",
+      "description": "轻松部署AI模型和数据应用"
+    },
+    {
+      "id": 38,
+      "name": "Neo4j",
+      "url": "https://neo4j.com",
+      "icon": "🕸️",
+      "description": "图数据库平台"
+    },
+    {
+      "id": 39,
+      "name": "Ollama",
+      "url": "https://ollama.ai",
+      "icon": "🦙",
+      "description": "本地运行大型语言模型"
+    },
+    {
+      "id": 40,
+      "name": "ONNX",
+      "url": "https://onnx.ai",
+      "icon": "🔄",
+      "description": "开放神经网络交换格式"
+    },
+    {
+      "name": "OpenMMLab",
+      "url": "https://openmmlab.com",
+      "icon": "📊",
+      "description": "商汤科技开源的计算机视觉算法体系",
+      "id": 41
+    },
+    {
+      "id": 42,
+      "name": "PaddlePaddle",
+      "url": "https://www.paddlepaddle.org.cn",
+      "icon": "🏊",
+      "description": "百度开源深度学习平台"
+    },
+    {
+      "id": 43,
+      "name": "Paperspace",
+      "url": "https://www.paperspace.com",
+      "icon": "☁️",
+      "description": "云GPU计算和机器学习平台"
+    },
+    {
+      "id": 44,
+      "name": "Pinecone",
+      "url": "https://www.pinecone.io",
+      "icon": "🌲",
+      "description": "向量数据库和相似性搜索"
+    },
+    {
+      "id": 45,
+      "name": "Prefect",
+      "url": "https://prefect.io",
+      "icon": "🌊",
+      "description": "数据工作流编排平台"
+    },
+    {
+      "id": 46,
+      "name": "PyTorch",
+      "url": "https://pytorch.org",
+      "icon": "🔥",
+      "description": "Meta开源机器学习框架"
+    },
+    {
+      "id": 47,
+      "name": "Qdrant",
+      "url": "https://qdrant.tech",
+      "icon": "🔍",
+      "description": "高性能向量相似度搜索"
+    },
+    {
+      "id": 48,
+      "name": "Ray",
+      "url": "https://ray.io",
+      "icon": "☀️",
+      "description": "分布式机器学习框架"
+    },
+    {
+      "id": 49,
+      "name": "Replicate",
+      "url": "https://replicate.com",
+      "icon": "🔁",
+      "description": "运行开源机器学习模型的平台"
+    },
+    {
+      "id": 50,
+      "name": "Replit AI",
+      "url": "https://replit.com/ai",
+      "icon": "💻",
+      "description": "基于浏览器的AI编程环境"
+    },
+    {
+      "id": 51,
+      "name": "Scikit-learn",
+      "url": "https://scikit-learn.org",
+      "icon": "🔧",
+      "description": "机器学习库"
+    },
+    {
+      "id": 52,
+      "name": "Seldon Core",
+      "url": "https://seldon.io",
+      "icon": "🚀",
+      "description": "Kubernetes上的模型部署"
+    },
+    {
+      "id": 53,
+      "name": "Streamlit",
+      "url": "https://streamlit.io",
+      "icon": "🌊",
+      "description": "快速构建和分享数据应用的工具"
+    },
+    {
+      "id": 54,
+      "name": "Tabnine",
+      "url": "https://www.tabnine.com",
+      "icon": "⌨️",
+      "description": "AI代码完成工具"
+    },
+    {
+      "id": 55,
+      "name": "Trae",
+      "url": "https://trae.ai",
+      "icon": "🔌",
+      "description": "AI驱动的智能编程工具"
+    },
+    {
+      "id": 56,
+      "name": "Vercel AI SDK",
+      "url": "https://sdk.vercel.ai",
+      "icon": "⚡",
+      "description": "构建AI驱动的用户界面"
+    },
+    {
+      "id": 57,
+      "name": "Weaviate",
+      "url": "https://weaviate.io",
+      "icon": "🕸️",
+      "description": "开源向量数据库"
+    },
+    {
+      "id": 58,
+      "name": "Weights & Biases",
+      "url": "https://wandb.ai",
+      "icon": "📈",
+      "description": "ML实验跟踪和可视化"
+    },
+    {
+      "id": 59,
+      "name": "XGBoost",
+      "url": "https://xgboost.ai",
+      "icon": "🚀",
+      "description": "梯度提升决策树库"
+    }
+  ]
+}

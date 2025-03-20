@@ -1,0 +1,16 @@
+@import './base.css';
+
+#app {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+/* 移除所有会影响布局的媒体查询 */

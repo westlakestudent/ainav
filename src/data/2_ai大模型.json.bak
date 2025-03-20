@@ -1,0 +1,239 @@
+{
+  "id": 2,
+  "name": "AI大模型",
+  "icon": "🧠",
+  "description": "",
+  "sites": [
+    {
+      "id": 1,
+      "name": "Aleph Alpha",
+      "url": "https://www.aleph-alpha.com",
+      "icon": "🔵",
+      "description": "欧洲开发的大型语言模型"
+    },
+    {
+      "id": 2,
+      "name": "Alpaca",
+      "url": "https://crfm.stanford.edu/2023/03/13/alpaca.html",
+      "icon": "🦙",
+      "description": "Stanford开发的指令调优语言模型"
+    },
+    {
+      "id": 3,
+      "name": "Baichuan",
+      "url": "https://baichuan-ai.com",
+      "icon": "🌊",
+      "description": "百川智能开发的大型语言模型"
+    },
+    {
+      "id": 4,
+      "name": "Bing Chat",
+      "url": "https://www.bing.com/chat",
+      "icon": "🔎",
+      "description": "Microsoft的AI搜索助手"
+    },
+    {
+      "id": 5,
+      "name": "Cerebras-GPT",
+      "url": "https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/",
+      "icon": "🧠",
+      "description": "Cerebras开源语言模型"
+    },
+    {
+      "id": 6,
+      "name": "ChatGLM",
+      "url": "https://chatglm.cn",
+      "icon": "💬",
+      "description": "智谱AI开发的双语对话模型"
+    },
+    {
+      "id": 7,
+      "name": "Chinchilla",
+      "url": "https://www.deepmind.com",
+      "icon": "🐹",
+      "description": "DeepMind的大型语言模型"
+    },
+    {
+      "id": 8,
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "icon": "🔮",
+      "description": "Anthropic开发的对话式AI助手"
+    },
+    {
+      "id": 9,
+      "name": "Claude 3",
+      "url": "https://www.anthropic.com/claude",
+      "icon": "🧠",
+      "description": "Anthropic的最新语言模型系列"
+    },
+    {
+      "id": 10,
+      "name": "Cohere",
+      "url": "https://cohere.com",
+      "icon": "🔄",
+      "description": "专注于自然语言处理的AI平台"
+    },
+    {
+      "name": "DeepSeek",
+      "url": "https://deepseek.com",
+      "icon": "🧠",
+      "description": "由杨植麟团队开发的中英双语大模型，在多项基准测试中表现突出",
+      "id": 11
+    },
+    {
+      "id": 12,
+      "name": "Dolly",
+      "url": "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm",
+      "icon": "🐑",
+      "description": "Databricks开发的指令微调模型"
+    },
+    {
+      "id": 13,
+      "name": "Ernie Bot",
+      "url": "https://yiyan.baidu.com",
+      "icon": "🧠",
+      "description": "百度文心一言大语言模型"
+    },
+    {
+      "id": 14,
+      "name": "Falcon",
+      "url": "https://falconllm.tii.ae",
+      "icon": "🦅",
+      "description": "阿联酋技术创新研究院开发的开源LLM"
+    },
+    {
+      "id": 15,
+      "name": "Gemma",
+      "url": "https://goo.gle/gemma",
+      "icon": "💎",
+      "description": "Google的开源轻量级大语言模型"
+    },
+    {
+      "id": 16,
+      "name": "GLM-130B",
+      "url": "https://github.com/THUDM/GLM-130B",
+      "icon": "📊",
+      "description": "清华开发的开源双语预训练模型"
+    },
+    {
+      "id": 17,
+      "name": "GPT-NeoX",
+      "url": "https://github.com/EleutherAI/gpt-neox",
+      "icon": "🧮",
+      "description": "EleutherAI的开源大语言模型"
+    },
+    {
+      "id": 18,
+      "name": "GPT4All",
+      "url": "https://gpt4all.io",
+      "icon": "🌍",
+      "description": "可在本地运行的开源大语言模型"
+    },
+    {
+      "id": 19,
+      "name": "H2O LLM Studio",
+      "url": "https://h2o.ai/products/h2o-llm-studio",
+      "icon": "💧",
+      "description": "H2O.ai的大语言模型平台"
+    },
+    {
+      "id": 20,
+      "name": "MiniMax",
+      "url": "https://www.minimaxi.com",
+      "icon": "🎯",
+      "description": "专注中文理解的大语言模型"
+    },
+    {
+      "id": 21,
+      "name": "Mistral AI",
+      "url": "https://mistral.ai",
+      "icon": "🌀",
+      "description": "开发开源大语言模型的企业"
+    },
+    {
+      "id": 22,
+      "name": "MPT",
+      "url": "https://www.mosaicml.com/mpt",
+      "icon": "🧩",
+      "description": "MosaicML的开源大语言模型"
+    },
+    {
+      "id": 23,
+      "name": "Pythia",
+      "url": "https://github.com/EleutherAI/pythia",
+      "icon": "🔮",
+      "description": "EleutherAI的语言模型套件"
+    },
+    {
+      "id": 24,
+      "name": "Qwen",
+      "url": "https://qwen.ai",
+      "icon": "🐦",
+      "description": "阿里巴巴开发的大型语言模型"
+    },
+    {
+      "id": 25,
+      "name": "RWKV",
+      "url": "https://www.rwkv.com",
+      "icon": "⚡",
+      "description": "创新型RNN-Transformer混合架构"
+    },
+    {
+      "id": 26,
+      "name": "Vicuna",
+      "url": "https://lmsys.org/blog/2023-03-30-vicuna",
+      "icon": "🦙",
+      "description": "基于LLaMA的开源对话模型"
+    },
+    {
+      "id": 27,
+      "name": "XLNet",
+      "url": "https://github.com/zihangdai/xlnet",
+      "icon": "🔄",
+      "description": "突破BERT限制的预训练模型"
+    },
+    {
+      "id": 28,
+      "name": "Yi",
+      "url": "https://01.ai",
+      "icon": "🔆",
+      "description": "零一万物开发的开源大语言模型"
+    },
+    {
+      "name": "书生·浦语",
+      "url": "https://internlm.org",
+      "icon": "📖",
+      "description": "上海人工智能实验室开发的开源大语言模型",
+      "id": 29
+    },
+    {
+      "name": "智谱AI",
+      "url": "https://www.zhipuai.cn",
+      "icon": "🧩",
+      "description": "清华大学团队开发的ChatGLM模型，提供通用和专业领域对话能力",
+      "id": 30
+    },
+    {
+      "name": "月之暗面",
+      "url": "https://www.moonshot.cn",
+      "icon": "🌙",
+      "description": "开源的多语言大模型，擅长中英文理解和代码能力",
+      "id": 31
+    },
+    {
+      "name": "讯飞星火",
+      "url": "https://xinghuo.xfyun.cn",
+      "icon": "💫",
+      "description": "科大讯飞推出的认知大模型，支持多轮对话和内容创作",
+      "id": 32
+    },
+    {
+      "name": "通义千问",
+      "url": "https://tongyi.aliyun.com",
+      "icon": "🔍",
+      "description": "阿里巴巴开发的大规模语言模型，提供全面的AI能力",
+      "id": 33
+    }
+  ]
+}
